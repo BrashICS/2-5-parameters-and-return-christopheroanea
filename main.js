@@ -9,5 +9,13 @@
  * For more info: www.w3schools.com/js/js_strict.asp
 **/ 
 
-'use strict';
+function percent(correct, total){
+let score = correct/total * 100;
+alert (`You got ${score} you suck twin`)
+console.log(`You got ${score}`)
+}
 
+function theorom (a, b){
+     hypotneuse = Math.sqrt(a**2 + b**2)
+    return 
+}
